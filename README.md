@@ -14,4 +14,4 @@ _Here's a [link](https://youtu.be/FeydyRp5Cgg?si=1t0iEN2MDjrnn-gI) to an event a
 
 # Table of Contents
 
-[Link to Assignment 1](assignments/assignment1.md)
+[Assignment 1](assignments/assignment1.md)
