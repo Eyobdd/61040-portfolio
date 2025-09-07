@@ -283,8 +283,6 @@ A comprehensive meta-analysis shows _implementation intentions_ (“If it’s 10
 
 </details>
 
----
-
 ### (Problem 1.2) Hard to see patterns across entries
 
 **TL;DR:** Often times the amount of data captured is plentiful, however synthesis is scarce. Currently, reflection tools only surface patterns after the user manually introduces their own schemas and tags. The process of labeling reflections for synthesis introduces its own friction, overshadowing the high level reflections the labels enable with extra work.
@@ -373,8 +371,6 @@ Treats notes as a queryable database to build dashboards; powerful but setup/mai
 
 </details>
 
----
-
 ### (Problem 1.3) Digital journaling doesn’t lower friction (and can distract)
 
 **TL;DR:** Digitizing reflections is useful, but method matters. Phone-based typing often retains the friction of writing and, at night, adds attentional and sleep costs. Because screens and notifications invite distraction, prefer low-screen capture (brief voice notes, scan-to-text/Optical Character Recognition) if the goal is to reduce friction while keeping entries searchable.
@@ -460,5 +456,102 @@ Makes handwritten notes searchable—useful for archiving paper journals—but c
 
 OCR/AI transcription turns scans of handwritten pages into editable text; lowers re-typing burden but doesn’t, by itself, address bedtime screen friction.  
 [Evernote — AI Transcribe handwriting](https://evernote.com/blog/ai-transcribe-handwriting-to-text)
+
+</details>
+
+## Features
+
+### (Problem 1.1) Reflection slips when I’m busy
+
+<details>
+<summary><b>Dual-Mode Calls (Scheduled + Tap-to-Call)</b></summary>
+
+A default daily check-in is complemented by a one-tap option that triggers an immediate guided call whenever a brief window appears (or to call back after a missed session).
+
+The call proceeds through the following 5 fixed prompts, in order:
+
+1. What are you grateful for today?
+2. What did you do today?
+3. What are you proud of today?
+4. What do you want to do tomorrow?
+5. On a whole number scale from -2 to 2, where 2 is really good and -2 is really bad, how would you rate today?
+
+**Why it helps:** Reduces initiation friction on busy days by removing the “open app and type” step, sustaining the habit and stabilizing next-day planning.
+
+</details>
+
+<details>
+<summary><b>24-Hour Micro-Entry Catch-Up (voice + day score)</b></summary>
+
+When a scheduled call is missed, a 24-hour window enables lightweight catch-up: record brief answers to the same five prompts and submit a tap-based day score (−2…2). The entry is ingested and analyzed normally, preserving continuity without requiring a full session.
+
+**Why it helps:** Protects consistency during high-pressure periods so downstream benefits (insight, planning) don’t collapse.
+
+</details>
+
+<details>
+<summary><b>Adaptive Pacing & Smart Wrap-Up (no hard time limit)</b></summary>
+
+The guided call adapts to pauses and “I’m done” cues, expanding or contracting as needed. A concise summary closes the session by reading back tomorrow’s action list derived from the prompts.
+
+**Why it helps:** Provides “as long as needed—no more, no less,” respecting time constraints without rushing reflection, which supports long-term adherence.
+
+</details>
+
+### (Problem 1.2) Hard to see patterns across entries
+
+<details>
+<summary><b>Zero-Tag Theme Clusters with Day-Score Overlay</b></summary>
+
+Narrative entries are automatically clustered into themes (e.g., sleep, classes, relationships, focus) using LLM embeddings. Each theme shows frequency and sentiment, and is overlaid with the daily score (−2…2) on days when the theme appears, alongside representative quotations.
+
+**Why it helps:** Eliminates manual tagging while turning scattered entries into longitudinal signals that guide concrete adjustments.
+
+</details>
+
+<details>
+<summary><b>“Tomorrow → To-Do” with Completion Analytics</b></summary>
+
+The response to “What do you want to do tomorrow?” is converted into a to-do list automatically. Over time, the system reports completion rates, recurring items, and scope trends, offering calibrated guidance (e.g., typical weekday capacity).
+
+**Why it helps:** Bridges reflection and execution, enabling realistic goal-setting and measurable follow-through.
+
+</details>
+
+<details>
+<summary><b>Weekly Wrapped (Personal + Optional Social Digest)</b></summary>
+
+A concise weekly digest highlights top themes, notable quotes, day-score trends, and one small experiment for the coming week. With explicit opt-in and per-person controls, an optional “what’s new” section can be shared among close contacts who also participate.
+
+**Why it helps:** Keeps insights salient, supports lightweight accountability, and provides a high-signal overview without exposing raw entries.
+
+</details>
+
+### (Problem 1.3) Digital journaling doesn’t lower friction (and can distract)
+
+<details>
+<summary><b>Audio-First Capture, Everywhere</b></summary>
+
+Entries default to voice—initiated via a guided call or a long-press recorder—with prompts read aloud and transcription performed asynchronously. Screen interaction is minimized, especially at night.
+
+**Why it helps:** Maximizes information density while removing typing friction and limiting late-night distraction risk.
+
+</details>
+
+<details>
+<summary><b>No-App Call-In + Quick-Start Triggers</b></summary>
+
+A local call-in number enables reflection from any phone, with simple keypad selection for the day score (−2…2). Optional quick-start triggers—e.g., NFC tag or voice-assistant shortcut—initiate the guided flow without unlocking or browsing apps.
+
+**Why it helps:** Bypasses app navigation and notifications at capture time, reducing the chance of being sidetracked.
+
+</details>
+
+<details>
+<summary><b>Call-Bound Quiet Mode (distraction shield during capture)</b></summary>
+
+When a reflection call starts, notifications are silenced and other apps are temporarily blocked for the duration of the session; normal device behavior resumes immediately afterward.
+
+**Why it helps:** Creates a focused capture window precisely when attentional costs are highest, improving session quality and adherence.
 
 </details>
