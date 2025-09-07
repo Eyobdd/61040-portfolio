@@ -57,3 +57,104 @@ I’m deeply interested in education and pedagogy, and I’ve seen peer activiti
 I care about staying close with people I value - meeting up, calling, FaceTiming, or even sending a quick “thinking of you” text - but in the rush of school and life, relationships slip out of focus. The friction is remembering who I haven’t connected with recently and finding low-effort ways to reach out that feel natural, not performative or guilt-inducing. I’m interested in light weight scaffolds that keep relationships top-of-mind and make it easier to initiate and sustain meaningful touchpoints.
 
 </details>
+
+## Problems
+
+### Domain Problems
+
+<details>
+<summary><b>Personal Reflection & Habit-Building (Domain 1)</b></summary>
+
+- **1.1) Reflection slips when I’m busy**  
+  On most evenings I want to reflect and plan tomorrow, but when school ramps up I forget or skip it because it feels like it takes too much time. I’ve tried reminders and a few apps. I still end up inconsistent and lose the thread from day to day. I want a way to make reflection easy to remember and quick to complete so the habit sticks.
+- **1.2) Hard to see patterns across entries**  
+  I journal for stretches, but when I look back it’s hard to spot themes—what drains me, what works, how goals progress. I’ve tried tags and rereads, but it still feels like noise. I want clearer trends that translate into simple next steps.
+- **1.3) Digital journaling doesn’t lower friction (and can distract)**  
+ I prefer handwriting to typing, and digitizing doesn’t actually reduce the effort; it often adds negatives—like typing on my phone before bed, which feels awkward and distracting. Re-entering notes or forcing myself to type just shifts the burden without making reflection easier. I want the benefits of digital insight without adding typing friction or device distraction.
+</details>
+
+<details>
+<summary><b>Making Peer Learning Work in Real Classrooms(Domain 5)</b></summary>
+
+- **5.1) Forming effective pairs without data**  
+  When I run peer activities, I often have little to go on beyond a roster, so pairing ends up random or based on guesswork. Quick surveys and ad-hoc observations still take time and give uneven results. I want a lightweight way to form complementary pairs quickly so the activity starts strong.
+- **5.2) Classroom workflow slows the activity**  
+  During Think-Pair-Share–style tasks, I juggle slides, rosters, and timers, which costs minutes and breaks momentum. Spreadsheets and printed lists still pull focus from facilitation. I want smoother in-the-moment logistics so students spend more time actually collaborating.
+- **5.3) Hard to capture outcomes at scale**  
+  After activities, it’s difficult to collect consistent, low-burden signals about what worked—across classes, weeks, or schools. Exit tickets and small pilots produce fragmented, small datasets. I want a simple, ethical way to gather comparable outcome data so different pedagogies can be evaluated rigorously.
+
+</details>
+
+<details>
+<summary><b>Maintaining Intentional In-Person Friendships (Domain 7)</b></summary>
+
+- **7.1) Losing track of recent contact**  
+  Even with good intentions, weeks can pass without reaching out. Lists and calendar reminders help only a little, and outreach remains reactive. A gentle way to surface who has fallen off the radar would make staying in touch easier.
+- **7.2) No clear sense of weekly social bandwidth**  
+  Without a realistic view of time and energy for connection, it’s easy to overcommit or under-connect. Calendars don’t translate into a simple “capacity” for calls, texts, or meetups. A straightforward capacity view would align plans with actual bandwidth.
+- **7.3) No differentiation of connectedness levels**  
+  Treating all contacts the same makes it hard to prioritize relationships that matter most or need attention now. A lightweight way to reflect different closeness levels would help right-size touchpoints and timing.
+
+</details>
+
+### Selected Problems
+
+<details>
+<summary><b>Reflection slips when I’m busy (Problem 1.1)</b></summary>
+
+When school ramps up, reflection gets skipped because it feels time-consuming and easy to forget. This is widespread and directly tied to my experience; without consistency, none of the downstream benefits (insights, planning) happen. It’s also tractable to prototype and evaluate quickly, which makes it a strong fit for a short project.  
+**Why included:** High impact, personal salience, clear MVP, measurable behavior change.
+
+</details>
+
+<details>
+<summary><b>Hard to see patterns across entries (Problem 1.2)</b></summary>
+
+Even with intermittent journaling, it’s difficult to surface themes like repeated stressors, effective routines, or progress toward goals. Improving this turns reflection into actionable adjustments rather than isolated entries. It pairs naturally with 1.1 but remains a distinct, solvable problem.  
+**Why included:** Converts reflection into action; strong leverage; evaluable via simple metrics (e.g., surfaced trends → next-step tasks).
+
+</details>
+
+<details>
+<summary><b>Digital journaling doesn’t lower friction (and can distract) (Problem 1.3) </b></summary>
+
+Typing—especially on a phone before bed—adds its own friction and can be distracting, so “just digitize it” isn’t actually a fix. The modality mismatch leads to drop-off even when motivation is high. Addressing this constraint is key to avoiding solutions that look good on paper but don’t get used.  
+**Why included:** Prevents a common false solution; centers real-world habit friction; informs practical design constraints.
+
+</details>
+
+### Unselected Problems
+
+#### Domain 5 — Making Peer Learning Work in Real Classrooms
+
+<details>
+<summary>Forming effective pairs without data (Problem 5.1)</summary>
+Valuable, but narrower leverage than establishing consistent data/insight flows; also benefits from resolving 5.3 first.
+</details>
+
+<details>
+<summary>Classroom workflow slows the activity (Problem 5.2)</summary>
+Important, yet validation requires real classroom access and co-design time—high coordination cost for a short timeline.
+</details>
+
+<details>
+<summary>Hard to capture outcomes at scale (Problem 5.3)</summary>
+High impact but heavy (privacy, approvals, multi-site consistency); better as a longer-term effort than a two–three-week build.
+</details>
+
+#### Domain 7 — Maintaining Intentional In-Person Friendships
+
+<details>
+<summary>Losing track of recent contact (Problem 7.1)</summary>
+Meaningful, but outside the immediate focus on reflection habits; likely to require multi-app integrations to shine.
+</details>
+
+<details>
+<summary>No clear sense of weekly social bandwidth (Problem 7.2)</summary>
+Useful, but depends on modeling time/energy from calendars and routines—non-trivial for a short prototype.
+</details>
+
+<details>
+<summary>No differentiation of connectedness levels (Problem 7.3)</summary>
+Valuable conceptually, but needs prolonged calibration with real usage to avoid over- or under-prioritizing ties.
+</details>
