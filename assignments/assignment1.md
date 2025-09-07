@@ -158,3 +158,40 @@ Useful, but depends on modeling time/energy from calendars and routines—non-tr
 <summary>No differentiation of connectedness levels (Problem 7.3)</summary>
 Valuable conceptually, but needs prolonged calibration with real usage to avoid over- or under-prioritizing ties.
 </details>
+
+## Stakeholders
+
+### Shared stakeholder set (applies to Problems 1.1–1.3)
+
+1. **The Journaler (primary user)** — Individual building and maintaining a reflection habit and acting on insights.
+2. **Collaborators & Close Relationships (non-users)** — Classmates/teammates, friends, roommates/housemates who benefit when the journaler is reliable and focused (or are affected when they aren’t).
+3. **Support Network & Professionals (non-users)** — Therapists, coaches, advisors, mentors, or parents focused on wellbeing, follow-through, and healthy routines.
+
+### Impact on Stakeholders: Who’s Affected and How?
+
+<details>
+<summary><b>Reflection slips when I’m busy (Problem 1.1)</b></summary>
+
+- **The Journaler:** When reflection gets skipped during busy periods, planning weakens and follow-through drops; the habit becomes fragile and progress feels unclear.
+- **Collaborators & Close Relationships:** Missed or late commitments and more reactive communication create friction in shared tasks or living arrangements. Reliability improves when the journaler maintains a simple, consistent cadence.
+- **Support Network & Professionals:** Inconsistent inputs make it harder to spot emerging issues, celebrate wins, or tailor guidance; steadier entries enable earlier, more targeted support.
+
+</details>
+
+<details>
+<summary><b>Hard to see patterns across entries (Problem 1.2)</b></summary>
+
+- **The Journaler:** Without surfaced trends (recurring stressors, effective routines, goal progress), entries stay siloed and opportunities to adjust are missed. Clear patterns enable concrete next steps and better prioritization.
+- **Collaborators & Close Relationships:** When the journaler can translate patterns into plans, scheduling becomes more predictable and last-minute churn for others decreases.
+- **Support Network & Professionals:** Synthesized themes help sessions focus on decisions and experiments instead of repeatedly rediscovering issues from scratch.
+
+</details>
+
+<details>
+<summary><b>Digital journaling doesn’t lower friction (and can distract) (Problem 1.3)</b></summary>
+
+- **The Journaler:** Typing—especially on a phone near bedtime—adds friction and distraction, reducing adherence and potentially harming sleep; habit benefits are lost when tools increase effort.
+- **Collaborators & Close Relationships:** Next-day preparedness can suffer (scattered plans, slower follow-through), which ripples into team work and shared responsibilities.
+- **Support Network & Professionals:** If the modality increases friction and gets abandoned, there’s less trustworthy data to inform coaching/therapy and track progress over time.
+
+</details>
