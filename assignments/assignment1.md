@@ -195,3 +195,270 @@ Valuable conceptually, but needs prolonged calibration with real usage to avoid 
 - **Support Network & Professionals:** If the modality increases friction and gets abandoned, there’s less trustworthy data to inform coaching/therapy and track progress over time.
 
 </details>
+
+## Evidence & Comparables
+
+### (Problem 1.1) Reflection slips when I’m busy
+
+**TL;DR:** Small, structured reflection meaningfully improves outcomes; however, under time pressure,intentions evaporate without scaffolding. Most journals and reflection tools still require users to initiate reflections which is where adherence collapses on hectic days.
+
+#### Evidence
+
+<details>
+<summary><b>Reflecting (≈15 min/day) improves performance.</b></summary>
+   
+A call-center field experiment found trainees who spent time reflecting outperformed controls on final assessments, highlighting that even small, regular reflection yields benefits.
+
+[Harvard Business School — _Reflecting on Work Improves Job Performance_](https://www.library.hbs.edu/working-knowledge/reflecting-on-work-improves-job-performance).
+
+</details>
+
+<details>
+<summary><b>Expressive writing shows small-to-moderate health benefits.</b></summary>
+Reviews summarize gains in psychological and some physical outcomes from brief, structured journaling interventions (not a panacea, but meaningful for many).
+
+[_Advances in Psychiatric Treatment_ — Emotional and physical health benefits of expressive writing](https://www.cambridge.org/core/journals/advances-in-psychiatric-treatment/article/emotional-and-physical-health-benefits-of-expressive-writing/ED2976A61F5DE56B46F07A1CE9EA9F9F).
+
+</details>
+
+<details>
+<summary><b>Habits require sustained repetition (median ≈66 days).</b></summary>
+Real-world habit formation work shows automaticity rising over weeks, explaining why reflection drops during busy stretches without strong scaffolds.
+   
+[UCL summary of Lally et al. (Eur. J. Soc. Psychol.)](https://www.ucl.ac.uk/news/2009/aug/how-long-does-it-take-form-habit)
+</details>
+
+<details>
+<summary><b>Intention → behavior is not automatic.</b></summary>
+A meta-analysis finds that experimentally increasing intentions yields smaller changes in behavior—so “I intend to journal” often isn’t enough without prompts/systems.  
+   
+[Sheeran (Meta-analysis) — _Does Changing Behavioral Intentions Engender Behavior Change?_ (PDF)](http://www.communicationcache.com/uploads/1/0/8/8/10887248/does_changing_behavioral_intentions_engender_behavior_change-_a_meta-analysis_of_the_experimental_evidence.pdf).
+</details>
+
+<details>
+<summary><b>If-then plans boost follow-through.</b></summary>
+A comprehensive meta-analysis shows _implementation intentions_ (“If it’s 10 pm, then I journal for 3 minutes”) produce medium–large gains in goal attainment—useful for making the habit resilient when life gets busy.
+
+[Gollwitzer & Sheeran — _Implementation Intentions and Goal Achievement: A Meta-analysis of Effects and Processes_](https://www.sciencedirect.com/science/article/pii/S0065260106380021)
+
+</details>
+<details>
+<summary><b>Therapeutic journaling has measurable but modest effects.</b></summary>
+ The VA summarizes multiple meta-analyses of expressive writing showing small–moderate benefits (e.g., PTSD symptoms), supporting the value of consistent reflection.
+ 
+ [U.S. Dept. of Veterans Affairs — Therapeutic Journaling (PDF)](https://www.va.gov/WHOLEHEALTHLIBRARY/docs/Therapeutic-Journaling.pdf).
+</details>
+
+#### Existing Product Comparisons
+
+<details>
+<summary><b>Apple Journal (iOS 17.2+).</b></summary>
+   Uses on-device ML to suggest “moments” and nudge entries; still requires opening the app and typing, so time pressure can defeat adherence.
+
+[Apple Newsroom — _Journal app launch_](https://www.apple.com/newsroom/2023/12/apple-launches-journal-app-a-new-app-for-reflecting-on-everyday-moments/).
+
+</details>
+
+<details>
+<summary><b>Day One</b></summary>
+   Mature journaling app (reminders, audio, rich capture); friction remains because the user typically must initiate and type—susceptible to being skipped when busy.
+
+[Day One — Features](https://dayoneapp.com/features/).
+
+</details>
+
+<details>
+<summary><b>Five Minute Journal (paper & app).</b></summary>
+   Lightweight prompts reduce decision friction, but logging is still manual; quick cadence can trade depth for convenience.
+
+[Intelligent Change — Five Minute Journal](https://www.intelligentchange.com/products/the-five-minute-journal).
+
+</details>
+
+<details>
+<summary><b>Streaks (habit tracker).</b></summary>
+   Reinforces daily consistency with streak mechanics; not a journal and offers little support for deeper reflection content.
+
+[Streaks App](https://streaksapp.com/).
+
+</details>
+
+---
+
+### (Problem 1.2) Hard to see patterns across entries
+
+**TL;DR:** Often times the amount of data captured is plentiful, however synthesis is scarce. Currently, reflection tools only surface patterns after the user manually introduces their own schemas and tags. The process of labeling reflections for synthesis introduces its own friction, overshadowing the high level reflections the labels enable with extra work.
+
+#### Evidence
+
+<details>
+<summary><b>Stage-Based Model: barriers at “integration” & “reflection.”</b></summary>
+
+Foundational HCI work shows people struggle to aggregate and interpret their self-data—exactly the step from scattered entries → actionable trends.  
+[Li et al., _A Stage-Based Model of Personal Informatics Systems_ (CHI 2010, PDF)](https://courses.cs.washington.edu/courses/cse440/17au/readings/PersonalInformatics-Li2010.pdf).
+
+</details>
+
+<details>
+<summary><b>Lived Informatics: real life ≠ neat pipelines.</b></summary>
+
+Epstein et al. show that outside lab conditions, tracking is messy and episodic; people often fail to synthesize across time without tooling that surfaces patterns.  
+[Epstein et al., _A Lived Informatics Model of Personal Informatics_ (UbiComp 2015, PDF)](https://courses.cs.washington.edu/courses/cse440/17au/readings/PersonalInformatics-Epstein2015.pdf).
+
+</details>
+
+<details>
+<summary><b>Quantified-Selfers report exploration challenges.</b></summary>
+
+Even committed trackers struggle to turn collections into insight/action, underscoring the need for automatic summarization/visualization.  
+[Choe et al., _Understanding Quantified-Selfers’ Practices_ (PDF)](https://courses.cs.washington.edu/courses/cse440/19wi/assets/readings/PersonalInformatics-Choe2014.pdf).
+
+</details>
+
+<details>
+<summary><b>Personal tracking as “lived” practice.</b></summary>
+
+Interview study emphasizes irregular use and short-term goals; long-horizon patterns are rarely surfaced without help.  
+[Rooksby et al., _Personal Tracking as Lived Informatics_ (CHI 2014, PDF)](https://johnrooksby.org/papers/livedinformatics.pdf).
+
+</details>
+
+<details>
+<summary><b>Why manual review fails to scale.</b></summary>
+
+Follow-on work argues people need multiple data types presented together for discovery/reflection—manual rereads rarely reveal longitudinal themes.  
+[Li, _Understanding My Data, Myself_ (Ubicomp 2011, PDF)](https://hcitang.org/uploads/Teaching/2011-li-understanding-my-data.pdf).
+
+</details>
+
+<details>
+<summary><b>Anecdotal but illustrative: mood logging revealed “hidden” patterns.</b></summary>
+
+A month with Daylio surfaced trends memory glossed over—evidence that light structure + aggregation can expose actionable themes.  
+[AndroidPolice — _I used Daylio to track my moods for a month_](https://www.androidpolice.com/i-used-daylio-track-moods-for-month/).
+
+</details>
+
+#### Existing Product Comparisons
+
+<details>
+<summary><b>Daylio (mood + activities → charts).</b></summary>
+
+Very low-friction check-ins with automatic charts; depth beyond moods requires customization.  
+[Daylio](https://daylio.net/).
+
+</details>
+
+<details>
+<summary><b>Notion (journaling templates).</b></summary>
+
+Flexible databases/rollups can support trend views, but insights depend on manual schema/tagging—no automatic NLP over narrative text.  
+[Notion template example](https://www.notion.com/templates/journalling-vp).
+
+</details>
+
+<details>
+<summary><b>Roam Research (networked notes).</b></summary>
+
+Daily notes + backlinks build a knowledge graph; pattern detection still relies on user queries, filters, and conventions.  
+[Roam site](https://roamresearch.com/) and [Sweet Setup overview](https://thesweetsetup.com/a-thorough-beginners-guide-to-roam-research/).
+
+</details>
+
+<details>
+<summary><b>Obsidian + Dataview plugin.</b></summary>
+
+Treats notes as a queryable database to build dashboards; powerful but setup/maintenance shifts burden to the user.  
+[Dataview plugin (GitHub)](https://github.com/blacksmithgu/obsidian-dataview).
+
+</details>
+
+---
+
+### (Problem 1.3) Digital journaling doesn’t lower friction (and can distract)
+
+**TL;DR:** Digitizing reflections is useful, but method matters. Phone-based typing often retains the friction of writing and, at night, adds attentional and sleep costs. Because screens and notifications invite distraction, prefer low-screen capture (brief voice notes, scan-to-text/Optical Character Recognition) if the goal is to reduce friction while keeping entries searchable.
+
+#### Evidence
+
+<details>
+<summary><b>Evening screens can disrupt sleep.</b></summary>
+
+Harvard Health explains how blue-light exposure at night can delay melatonin and shift circadian timing—risking poorer sleep when journaling on phones at bedtime.  
+[Harvard Health Letter — _Blue light has a dark side_ (PDF)](https://www.drhodesod.com/uploads/4/1/4/3/41435373/harvard_medical_news_blue_light_has_a_dark_side_%281%29.pdf).
+
+</details>
+
+<details>
+<summary><b>Guidelines echo screen-before-bed concerns.</b></summary>
+
+Sleep Foundation (medically reviewed, 2025 update) details mechanisms (light + engagement) and best practices to mitigate impact.  
+[Sleep Foundation — _How Electronics Affect Sleep_](https://www.sleepfoundation.org/how-sleep-works/how-electronics-affect-sleep).
+
+</details>
+
+<details>
+<summary><b>“Brain drain” effect: phones tax cognition even when idle.</b></summary>
+
+Lab studies show the mere presence of your smartphone reduces available cognitive capacity—supporting the idea that phones add mental “drag” during reflection.  
+[Ward et al., _Brain Drain_ (PDF)](https://www.journals.uchicago.edu/doi/pdfplus/10.1086/691462).
+
+</details>
+
+<details>
+<summary><b>Notifications disrupt attention even without interaction.</b></summary>
+
+Receiving alerts impairs performance; reminder-driven logging can paradoxically erode focus if not carefully designed.  
+[Stothart et al. summary — ScienceDaily](https://www.sciencedaily.com/releases/2015/07/150709133044.htm).
+
+</details>
+
+<details>
+<summary><b>Voice capture reduces input effort (2016 study; today’s models are stronger).</b></summary>
+
+Stanford/Baidu/UW found mobile speech recognition ≈3× faster (and more accurate) than typing; conducted in **2016**, and modern ASR has improved further—strengthening the case for voice over typing when screens are unavoidable.  
+[Stanford Engineering write-up](https://engineering.stanford.edu/news/smartphone-speech-recognition-faster-and-more-accurate-typing) and [UW iSchool news](https://ischool.uw.edu/news/2016/11/study-talking-your-smartphone-3x-faster-typing).
+
+</details>
+
+<details>
+<summary><b>Handwriting can promote deeper processing than typing.</b></summary>
+
+Classic work shows longhand note-taking led to better conceptual recall vs. laptops—relevant when considering trade-offs of shifting reflective writing to phone typing.  
+[Mueller & Oppenheimer (2014) — _Psychological Science_ (PDF)](https://cpb-us-w2.wpmucdn.com/sites.udel.edu/dist/6/132/files/2010/11/Psychological-Science-2014-Mueller-0956797614524581-1u0h0yu.pdf).
+
+</details>
+
+#### Existing Product Comparisons
+
+<details>
+<summary><b>Journify (voice journaling).</b></summary>
+
+Lowers typing friction with audio + transcripts; still phone-based, so bedtime device issues may persist if used at night.  
+[Journify](https://journify.live/)
+
+</details>
+
+<details>
+<summary><b>Day One (audio entries).</b></summary>
+
+Supports long audio entries and some transcription; however, the user still has to open the app and interact with the device.  
+[Day One — Features](https://dayoneapp.com/features/).
+
+</details>
+
+<details>
+<summary><b>Apple Notes (handwriting search/OCR).</b></summary>
+
+Makes handwritten notes searchable—useful for archiving paper journals—but capture and organization remain manual.  
+[Apple Support — Search handwriting in Notes (iPadOS)](https://support.apple.com/guide/ipad/search-notes-ipad64863a98/ipados) and [Use handwriting in Notes](https://support.apple.com/en-us/121259).
+
+</details>
+
+<details>
+<summary><b>Evernote (AI Transcribe for handwriting).</b></summary>
+
+OCR/AI transcription turns scans of handwritten pages into editable text; lowers re-typing burden but doesn’t, by itself, address bedtime screen friction.  
+[Evernote — AI Transcribe handwriting](https://evernote.com/blog/ai-transcribe-handwriting-to-text)
+
+</details>
