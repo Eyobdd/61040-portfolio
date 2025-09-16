@@ -346,7 +346,7 @@ verifyCode (user: User, code: Number): ()
 - verification is by time window which means that a valid code can be reused within that window.
 </details>
 
-### Concept 3:
+### Concept 3: Billable Hours Tracking
 
 <details>
 
