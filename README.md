@@ -14,4 +14,10 @@ _Here's a [link](https://youtu.be/FeydyRp5Cgg?si=1t0iEN2MDjrnn-gI) to a video ab
 
 # Table of Contents
 
+## Assignments
+
 [Assignment 1](assignments/assignment1.md)
+
+## Problem Sets
+
+[Problem Set 1](psets/pset1.md)
