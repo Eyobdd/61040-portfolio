@@ -21,3 +21,4 @@ _Here's a [link](https://youtu.be/FeydyRp5Cgg?si=1t0iEN2MDjrnn-gI) to a video ab
 ## Problem Sets
 
 [Problem Set 1](psets/pset1.md)
+[Problem Set 2](psets/pset2.md)
