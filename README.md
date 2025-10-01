@@ -16,7 +16,8 @@ _Here's a [link](https://youtu.be/FeydyRp5Cgg?si=1t0iEN2MDjrnn-gI) to a video ab
 
 ## Assignments
 
-[Assignment 1](assignments/assignment1.md)
+[Assignment 1](assignments/assignment1.md)\
+[Assignment 2](assignments/assignment2.md)
 
 ## Problem Sets
 
