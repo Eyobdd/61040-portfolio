@@ -17,7 +17,8 @@ _Here's a [link](https://youtu.be/FeydyRp5Cgg?si=1t0iEN2MDjrnn-gI) to a video ab
 ## Assignments
 
 [Assignment 1](assignments/assignment1.md)\
-[Assignment 2](assignments/assignment2.md)
+[Assignment 2](assignments/assignment2.md)\
+[Assignment 3](https://github.com/Eyobdd/6.1040-Assignment3/blob/main/assignment-3/assignment3.md)
 
 ## Problem Sets
 
